@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+<link rel="stylesheet" href="styles.css">
+	<style>
+	.bg-dark.scrolled {
+	background-color: transparent !important;
+	}
+	</style>
+	
+</head>
+
+<body class="bg-dark">
+	
+<nav class="navbar navbar-default bg-dark fixed-top">
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Menu 1
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#video">Video</a>
+        <a class="dropdown-item" href="#cualquier-cosa">Cualquier Cosa</a>
+        <a class="dropdown-item" href="#parallax-effect">Parallax</a>
+	    <a class="dropdown-item" href="#seccion-interactiva">Seccion Interactiva</a>
+     </div>
+    </div>
+	
+	  <img src="capptus_original.png" width="150px" class="img-fluid" alt="Responsive image">
+	
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Menu 2
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#seccion-interaccion">Seccion de Interacción</a>
+	    <a class="dropdown-item" href="#">Contacto</a>
+	    <a class="dropdown-item" href="#">Marcas</a>
+        <a class="dropdown-item" href="#">Footer</a>
+      </div>
+    </div>	
+</nav>
+
+  <div class="video-loop" id="video">
+	<video autoplay="true" muted loop="true"  width="1519.50px">
+	  <source src="https://capptus.com/assets/vids/bg_mp4.mp4" type="video/mp4">
+	</video>
+	
+  </div>
+	<br>
+	<br>
+  <div class="justify-content-center bg-dark" id="cualquier-cosa">
+	  <h2 class="text-center text-light">CUALQUIER COSA</h2>
+	  <p class="text-center text-light"> En esta seccion pondremos algo importante de la empresa como los integrantes del equipo. </p>
+	  <div class="card-group">
+        <div class="card bg-dark"> <img src="capptus_original.png" alt="Card Image Cap" class="card-img-top rounded-circle">
+          <div class="card-body">
+            <h5 class="card-title text-light">CEO</h5>
+              <p class="card-text text-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      <div class="card bg-dark"> <img src="capptus_original.png" class="card-img-top" alt="Card Image Cap">
+        <div class="card-body">
+          <h5 class="card-title text-light">CO-FOUNDER</h5>
+          <p class="card-text text-light">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    <div class="card bg-dark"> <img src="capptus_original.png" class="card-img-top" alt="Card Image Cap">
+      <div class="card-body">
+        <h5 class="card-title text-light">CFO</h5>
+        <p class="card-text text-light">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+    </div>
+  </div>
+
+  </div>
+	<br>
+	<br>
+  <div id="parallax-effect">
+	  <h2 class="text-center text-light">ESTE ES EL EFECTO PARALLAX</h2>
+</div>
+  <div class="parallax"></div>
+	<br>
+	<br>
+  <div id="seccion-interactiva">
+    <h2 class="text-center text-light">SECCION INTERACTIVA 4 ELEMENTOS</h2>
+	  <br>
+	  <br>
+	<nav>
+      <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-seccion1-tab" data-toggle="tab" href="#nav-seccion1" role="tab" aria-controls="nav-home" aria-selected="true"><img alt="seccion1" src="light-saber.png" height="256px" width="256px"></a>
+        <a class="nav-item nav-link" id="nav-seccion2-tab" data-toggle="tab" href="#nav-seccion2" role="tab" aria-controls="nav-profile" aria-selected="false"><img alt="seccion2" src="millennium-falcon.png" width="256px" height="256px"></a>
+        <a class="nav-item nav-link" id="nav-seccion3-tab" data-toggle="tab" href="#nav-seccion3" role="tab" aria-controls="nav-contact" aria-selected="false"><img alt="seccion3" src="space-station.png" height="256px" width="256px"></a>
+	    <a class="nav-item nav-link" id="nav-seccion4-tab" data-toggle="tab" href="#nav-seccion4" role="tab" aria-controls="nav-contact" aria-selected="false"><img alt="seccion4" src="star-wars.png" height="256px" width="256px"></a>
+      </div>
+    </nav>
+  </div>
+	<br>
+	<br>
+  <div id="seccion-interaccion">
+    <h2 class="text-light text-center">Aqui se muestra el articulo interactivo</h2>
+	<br>
+	<br>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active text-light text-center" id="nav-seccion1" role="tabpanel" aria-labelledby="nav-seccion1-tab"><img width="855px" height="315px"  src="seccion-1.jpg"></div>
+      <div class="tab-pane fade text-light text-center" id="nav-seccion2" role="tabpanel" aria-labelledby="nav-seccion2-tab"><img width="855px" height="315px" src="seccion-2.jpg"></div>
+      <div class="tab-pane fade text-light text-center" id="nav-seccion3" role="tabpanel" aria-labelledby="nav-seccion3-tab"><img width="855px" height="315px" src="seccion-3.jpg"></div>
+      <div class="tab-pane fade text-light text-center" id="nav-seccion4" role="tabpanel" aria-labelledby="nav-seccion4-tab"><img width="855px" height="315px" src="seccion-4.jpg"></div>
+    </div>
+  </div>
+
+
+	
+	
+<script>
+	$(window).scroll(function() {
+		$('nav').toggleClass('scrolled', $(this).scrollTop() > 200);						
+	})
+	</script>
+</body>
+</html>
